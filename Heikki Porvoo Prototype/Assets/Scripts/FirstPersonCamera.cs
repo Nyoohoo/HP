@@ -19,8 +19,9 @@ public class FirstPersonCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float inputX = Input.GetAxis("Mouse X") * mouseSensitivity;
-        float inputY = Input.GetAxis("Mouse Y") * mouseSensitivity;
+        //Remove Time.deltaTime if issues occur
+        float inputX = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitivity;
+        float inputY = Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitivity;
 
         cameraVerticalRotation -= inputY;
         cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -90f, 90f);
