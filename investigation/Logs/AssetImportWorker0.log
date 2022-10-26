@@ -1,0 +1,393 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'fi' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Heikki Porvoo/HP/investigation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53865
+Successfully changed project path to: E:/Heikki Porvoo/HP/investigation
+E:/Heikki Porvoo/HP/investigation
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Heikki Porvoo/HP/investigation/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002997 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1886 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 3.563700 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.838300 ms  DeleteObjects: 0.370800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(38e147bf4a4113242989e49fba08489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(38e147bf4a4113242989e49fba08489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6142034f62a824e783c6dea77bb4b5') in 0.032433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(a65a4dca8200a284a8ca08d6a9bc2a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(a65a4dca8200a284a8ca08d6a9bc2a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034cb60a96e5e1c78c34cf2767db02a8') in 0.003309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.191201 seconds.
+  path: Assets/WorldMaterialsFree/URP_FreeDemoSceneSettings.lighting
+  artifactKey: Guid(0a500038f3e2c174cbb531f186d58aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/URP_FreeDemoSceneSettings.lighting using Guid(0a500038f3e2c174cbb531f186d58aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5e6ea4ba2a1bfb51f0e0df71c17b1c81') in 0.006394 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.4 MB.
+System memory in use after: 48.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 3.580000 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.043700 ms MarkObjects: 3.025400 ms  DeleteObjects: 0.342800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.134075 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials
+  artifactKey: Guid(867b3307386c9654eb1df9258da2aa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials using Guid(867b3307386c9654eb1df9258da2aa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce610056bc4190a4a1daa45293dc32ef') in 0.002044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042495 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_StandardShader.mat
+  artifactKey: Guid(6e8442dd275001c4f9d167e8d1b8c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_StandardShader.mat using Guid(6e8442dd275001c4f9d167e8d1b8c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436b4879ee783f0a4e16560c29813bf4') in 0.120537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_StandardShader.mat
+  artifactKey: Guid(54161d75d68c76d47ac01572c964f8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_StandardShader.mat using Guid(54161d75d68c76d47ac01572c964f8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef5dffcfeeae032156997dd3fc005bf') in 0.018795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_WMShader.mat
+  artifactKey: Guid(bfa6ad9a35a0a584e86e406e5382065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_WMShader.mat using Guid(bfa6ad9a35a0a584e86e406e5382065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee04b4b97d8005f0dc2422ebe784f255') in 0.033559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WaveSand_StandardShader.mat
+  artifactKey: Guid(38915b34fb784e641be19e619ced4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WaveSand_StandardShader.mat using Guid(38915b34fb784e641be19e619ced4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621eaf71384d2077dd7ed88c7171ac3d') in 0.017123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat
+  artifactKey: Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat using Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4111c59b99f598b6c2ce31a4c0fe671') in 0.021765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat
+  artifactKey: Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat using Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46c85d67977dd77c53e7ffdcd909f9e') in 0.020401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_StandardShader.mat
+  artifactKey: Guid(97600ef42b0a88b47adc4932a228ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_StandardShader.mat using Guid(97600ef42b0a88b47adc4932a228ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1028db0be539f0bf097b26ac30cdd4') in 0.016888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_StandardShader.mat
+  artifactKey: Guid(9a2c87bc6bc6e5b4aa96c1c4c5224aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_StandardShader.mat using Guid(9a2c87bc6bc6e5b4aa96c1c4c5224aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517e44ffacb67330b4e4f4d0b68649c') in 0.016552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_WMShader.mat
+  artifactKey: Guid(1a0c4d18584a3f14087077d1dafa042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_WMShader.mat using Guid(1a0c4d18584a3f14087077d1dafa042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668ea82b86b3d9cf3e58bd7059c6964d') in 0.018619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat
+  artifactKey: Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat using Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d29db550bc8e0b6a3afe291d60fe86') in 0.016372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_StandardShader.mat
+  artifactKey: Guid(3f070b9b51e38424e9597fbb6f473e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/SimpleRedBricks_StandardShader.mat using Guid(3f070b9b51e38424e9597fbb6f473e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecc45553b9b967680a39a6b2e4cb4c1') in 0.019283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_WMShader.mat
+  artifactKey: Guid(4318891aa1893e54b839de46698cfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_WMShader.mat using Guid(4318891aa1893e54b839de46698cfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d58fbd72dd4f33a5ad18d39f5c8d632') in 0.019169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_StandardShader.mat
+  artifactKey: Guid(5e8ed97749e472a4c9123bc956cf671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_StandardShader.mat using Guid(5e8ed97749e472a4c9123bc956cf671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063e8c017b7287c23b68f236ff2013a2') in 0.016254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_StandardShader.mat
+  artifactKey: Guid(1fe720c95284ff24d8a9a2d5ef1b7c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_StandardShader.mat using Guid(1fe720c95284ff24d8a9a2d5ef1b7c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac32fe56fc080a379238c070da5b29d7') in 0.018937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_StandardShader.mat
+  artifactKey: Guid(0c634d43759f96547a2894e2744199f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_StandardShader.mat using Guid(0c634d43759f96547a2894e2744199f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ac92c7fce4910a0690c65997bb0745') in 0.020711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat
+  artifactKey: Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat using Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e65136b6bcf0be2fc084c6f083f106') in 0.019250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_StandardShader.mat
+  artifactKey: Guid(481d1d21c29b1ed41b50472c451abfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_StandardShader.mat using Guid(481d1d21c29b1ed41b50472c451abfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ece8369c223f00e90103e90437fea61') in 0.018214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_WMShader.mat
+  artifactKey: Guid(a293034410ea13649bd3df957b15f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_WMShader.mat using Guid(a293034410ea13649bd3df957b15f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1ac902371314ba459392b582194d2') in 0.022348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_StandardShader.mat
+  artifactKey: Guid(06d2d82c741d6b34692010a75df9b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DryRockyDirt_StandardShader.mat using Guid(06d2d82c741d6b34692010a75df9b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f813e4404cf9ae42462260a4ee36319') in 0.016031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_WMShader.mat
+  artifactKey: Guid(2d376d668dcec9045a4b0e642a7239d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_WMShader.mat using Guid(2d376d668dcec9045a4b0e642a7239d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf0bb540d038f29c692361017e0375a') in 0.019755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_StandardShader.mat
+  artifactKey: Guid(64154d5d80792f94f86e62d53e3aea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_StandardShader.mat using Guid(64154d5d80792f94f86e62d53e3aea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1461d261bb3738711ca08bba082408') in 0.017390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_WMShader.mat
+  artifactKey: Guid(b29ce08ad640aeb48acdb7b6d2abcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_WMShader.mat using Guid(b29ce08ad640aeb48acdb7b6d2abcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81296d03bec7189299fd66ca3075e77') in 0.018336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/WavySand_WMShader.mat
+  artifactKey: Guid(fdb4ea3af6900bf46a224639828a821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/WavySand_WMShader.mat using Guid(fdb4ea3af6900bf46a224639828a821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6a4c700cbb3a6960ecf9d77570a0a9') in 0.021906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_WMShader.mat
+  artifactKey: Guid(d88a5817e21321744bd78ff809a0bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BasketWeaveBricks_WMShader.mat using Guid(d88a5817e21321744bd78ff809a0bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c07407e06435b3b258b20e93044af9') in 0.018571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat
+  artifactKey: Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat using Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86711d15a9b1a12dc1f59df0008ff4c1') in 0.023551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_StandardShader.mat
+  artifactKey: Guid(808e6047c73239f46ac7425fc704306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_StandardShader.mat using Guid(808e6047c73239f46ac7425fc704306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9843020b941963abb84439afde8a89') in 0.016382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassClumps_WMShader.mat
+  artifactKey: Guid(265c1888e0bb7ae4893432e053373ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassClumps_WMShader.mat using Guid(265c1888e0bb7ae4893432e053373ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c01dae586ead81be6c3bbd13a1b7515') in 0.019678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_WMShader.mat
+  artifactKey: Guid(f90d452210f589b48b152b19c8c4f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_WMShader.mat using Guid(f90d452210f589b48b152b19c8c4f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb32e0bab343b07c98db7600a362c1cc') in 0.019308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_WMShader.mat
+  artifactKey: Guid(11c96a58ad226394abb883bcbeaabb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/HexBricks_WMShader.mat using Guid(11c96a58ad226394abb883bcbeaabb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eac542a83989130a2b592d656e8abb3') in 0.017671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_StandardShader.mat
+  artifactKey: Guid(1d0c0bac13326d14a8fb5fda102ea2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_StandardShader.mat using Guid(1d0c0bac13326d14a8fb5fda102ea2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea258ee39b97a4aec704e3b6cd4a40f2') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_StandardShader.mat
+  artifactKey: Guid(b516a6be52730f64e98b8928895f48b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_StandardShader.mat using Guid(b516a6be52730f64e98b8928895f48b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b63a51e55c67f788e0e1b0a0b55c31') in 0.013889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassClumps_StandardShader.mat
+  artifactKey: Guid(6a3d964ea61cca74aad9cd47ed31878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassClumps_StandardShader.mat using Guid(6a3d964ea61cca74aad9cd47ed31878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e400d72eadc29392481b8cd18e0450') in 0.017771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_WMShader.mat
+  artifactKey: Guid(8bbfa9999a12c1c4ba28eb1d7932bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_WMShader.mat using Guid(8bbfa9999a12c1c4ba28eb1d7932bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bff6db0a7516dcdb10f6eccf395acb') in 0.019276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_WMShader.mat
+  artifactKey: Guid(5788fa9255612c049bcf0d092efe95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_WMShader.mat using Guid(5788fa9255612c049bcf0d092efe95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da266ffe042f86c3ecbfca99c29b0da') in 0.018729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_WMShader.mat
+  artifactKey: Guid(1b6c1d2396b618d429f058ad4102cf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_WMShader.mat using Guid(1b6c1d2396b618d429f058ad4102cf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cc4ebeb913dccd35ec1a5932f9abb8') in 0.019067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_WMShader.mat
+  artifactKey: Guid(258596a046ce9484b825867a99c21793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_WMShader.mat using Guid(258596a046ce9484b825867a99c21793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd483494454f2d921991f37c0f8ae5da5') in 0.018722 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
