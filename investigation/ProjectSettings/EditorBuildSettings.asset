@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/MainMenu.unity
     guid: 8c5ac836cc19b0c46a0cbb2ac880e106
   - enabled: 1
-    path: Assets/Murhatalo.unity
+    path: Assets/Scenes/Murhatalo.unity
     guid: afb979919a5fc47458d95c4d92198c18
   m_configObjects: {}
