@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LockControl : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class LockControl : MonoBehaviour
     private void Start()
     {
         result = new int[]{0,0,0,0};
-        correctCombination = new int[] {5,1,1,2};
+        correctCombination = new int[] {2,9,1,3};
         isOpened = false;
         Rotate.Rotated += CheckResults;
     }
@@ -38,7 +39,7 @@ public class LockControl : MonoBehaviour
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1]
             && result[2] == correctCombination[2] && result[3] == correctCombination[3] && !isOpened)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
+            SceneManager.LoadScene("Menu");
             isOpened = true;
         }
     }
