@@ -39,7 +39,8 @@ public class LockControl : MonoBehaviour
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1]
             && result[2] == correctCombination[2] && result[3] == correctCombination[3] && !isOpened)
         {
-            SceneManager.LoadScene("Menu");
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("Victory");
             isOpened = true;
         }
     }
